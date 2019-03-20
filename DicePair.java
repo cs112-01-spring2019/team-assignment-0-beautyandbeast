@@ -8,14 +8,14 @@ public class DicePair{
         die2 = new Die();
 
 	}
-	public roll(){
+	public int roll(){
 		resultI = die1.roll()+die2.roll();
 		return resultI;
 
 
 	}
 	
-	public toString(){
+	public String toString(){
 		String result = Integer.toString(resultI);
         return result;
 
